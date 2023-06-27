@@ -12,9 +12,10 @@ A plugin that lets OPs send messages on a server.
 Using colour codes beginning with either § or &, e.g. §c and &c both work to create red text.  
 Two permissions have been created with this plugin:
 - *broadcast.admin* - all OPs have this permission
-- *broadcast.all* - everyone has this permissoion  
+- *broadcast.all* - everyone has this permissoion
+   
 Other permissions can also be used in conjunction with the command  
-\n(Note that OPs automatically have access to any made up permission (e.g. "fake.perm") - this is a bukkit thing)  
+(Note that OPs automatically have access to any made up permission (e.g. "fake.perm") - this is a bukkit thing)  
 
 ### Example usage:
 `/broadcast broadcast.admin Hello World!`
