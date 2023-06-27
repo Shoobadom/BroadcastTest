@@ -1,0 +1,16 @@
+name: BroadcastTest
+version: '${project.version}'
+main: me.shoobadom.broadcasttest.BroadcastTest
+api-version: '1.20'
+commands:
+  broadcast:
+    description: Broadcasts a message to all users that have the given permission
+    usage: /<command> <perm> <msg>
+    permission: op
+permissions:
+  broadcast.admin:
+    description: Only admins can see this message
+    default: op
+  broadcast.all:
+    description: All users can see this message
+    default: true
